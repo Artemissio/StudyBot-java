@@ -2,7 +2,7 @@ version: '3.2'
 services:
   jenkins:
     build:
-      context: jenkins/
+      context: Jenkins/
     privileged: true
     user: root
     ports:
@@ -15,14 +15,14 @@ services:
     restart: unless-stopped
   redis:
     build:
-      context: redis/
+      context: Redis/
     ports:
       - 6379:6379
     container_name: redis
     restart: unless-stopped
   rabbitmq:
     build:
-      context: rabbitmq/
+      context: RabbitMQ/
     ports:
       - 5672:5672
     container_name: rabbitmq

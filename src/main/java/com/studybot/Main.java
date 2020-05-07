@@ -1,7 +1,7 @@
 package com.studybot;
 
-import com.studybot.bot.Bot;
-import com.studybot.bot.BotFactory;
+import com.studybot.Bots.Bot;
+import com.studybot.Bots.BotFactory;
 import org.apache.log4j.Logger;
 import org.telegram.telegrambots.ApiContextInitializer;
 
