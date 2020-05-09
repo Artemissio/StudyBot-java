@@ -5,7 +5,7 @@ def CONTAINER_ARGS_MAP=["bot-container-1":["client", "1117493466:AAF1l0-iif8pauA
                         "bot-admin-container-1": ["admin", "1087308657:AAEPGzxzTMZm84hbKHb5oaDpt2v1wut0pvQ", "StudyAdminBot"]]
 
 def IMAGE_TAG="latest"
-def DOCKER_HUB_USER="artemissio"
+def DOCKER_HUB_USER="lenagolovach"
 
 node {
 
