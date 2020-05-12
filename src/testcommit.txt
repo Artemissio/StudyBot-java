@@ -1,1 +1,3 @@
 Hi, girls!
+
+mvn exec:java -Dexec.mainClass="com.studybot.Main" -Dexec.args="client 1117493466:AAF1l0-iif8pauA2czuiW6JK7St4Bipp9n4 StudyBotNo1"
