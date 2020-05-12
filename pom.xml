@@ -76,7 +76,7 @@
                     <source>1.8</source>
                     <target>1.8</target>
                     <fork>true</fork>
-                    <executable>/usr/lib/jvm/java-8-openjdk-amd64/bin/javac</executable>
+                    <executable>/usr/lib/jvm/java-8-openjdk-amd64/bin/java</executable>
                 </configuration>
             </plugin>
             <plugin>
