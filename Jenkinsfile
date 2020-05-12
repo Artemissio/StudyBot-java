@@ -20,7 +20,7 @@ node {
     }
     /*Перебудувати проект та сформувати jar-файл*/
     stage('Build'){
-        sh "mvn -e clean package"
+        sh "mvn clean package"
     }
     /*Видалити зображення, якщо воно не використовується ні одним контейнером*/
     stage("Image Prune"){
